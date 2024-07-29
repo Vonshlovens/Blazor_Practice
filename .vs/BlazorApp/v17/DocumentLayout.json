@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\components\\pages\\grid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\grid.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\counter.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\weather.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\blazorapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|c:\\users\\vonshlovens\\source\\repos\\blazorapp\\blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F394FB9-079C-4C92-9F59-33E002F66BA7}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 289,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\DBcontext.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\DBcontext.cs",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\DBcontext.cs",
+              "RelativeToolTip": "BlazorApp\\DBcontext.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAA4wA8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T08:38:37.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Grid.razor",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Grid.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Grid.razor",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Grid.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Grid.razor",
+              "ViewState": "AQIAADUAAAAAAAAAAAAqwDoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T23:32:07.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Counter.razor",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Counter.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Counter.razor",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Counter.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Counter.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-27T07:52:09.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Weather.razor",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Weather.razor",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Weather.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Weather.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-26T21:04:34.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BlazorApp.csproj",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+              "RelativeDocumentMoniker": "BlazorApp\\BlazorApp.csproj",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
+              "RelativeToolTip": "BlazorApp\\BlazorApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-20T02:49:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T15:58:52.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-20T03:08:27.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T03:36:16.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Components\\App.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\App.razor",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T16:30:07.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Vonshlovens\\source\\repos\\BlazorApp\\BlazorApp\\Program.cs",
+              "RelativeToolTip": "BlazorApp\\Program.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAswB8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T02:46:43.522Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+﻿@page "/grid"
+@rendermode InteractiveServer
+@inject DBcontext dadata
+
+<table class="mt-4 table">
+    <thead>
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var employee in employeesSelected)
+        {
+            <tr>
+                <td>@employee.FirstName</td>
+                <td>@employee.LastName</td>
+                <td>@employee.EmployeeID</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="d-flex justify-content-center">
+    @foreach (var pageNumber in pageNumber)
+    {
+        <div class="mx-2" style="cursor: pointer" @onclick=@(async()=>{
+            page = pageNumber;
+            employeesSelected = await filterByPage();
+        })>
+            @pageNumber
+        </div>    
+    }
+</div>
+
+<RadzenStack Orientation="Orientation.Horizontal" AlignItems="AlignItems.Center" JustifyContent="JustifyContent.Center" Gap="0.5rem" class="rz-p-sm-12">
+    <RadzenLabel Text="Select Value" Component="DropDownBindValue" />
+    <RadzenDropDown @bind-Value=@pageSize Change=@(async()=>employeesSelected = await filterByPage()) Data=@pageSizeOptions Style="width: 100%; max-width: 400px;" Name="DropDownBindValue" />
+</RadzenStack>
+
+<RadzenTextBox Change=@(async(x)=>{
+    firstNameFilter = x;
+               employeesSelected = await filterByPage();
+               }) Style="width: 100%" aria-label="Default TextBox" />
+
+@code {
+
+    IEnumerable<Employee> employees = [];
+    IEnumerable<Employee> employeesSelected = [];
+    private int page = 1;
+    private int pageSize = 5;
+    int[] pageSizeOptions = [5, 10];
+    int[] pageNumber = [];
+    string firstNameFilter = "";
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        employees = Enumerable.Range(1, 100).Select(x => new Employee() { FirstName = GenerateName(5), LastName = GenerateName(6), EmployeeID = x }).ToList();
+        pageNumber = Enumerable.Range(1, (employees.Count() / pageSize)).ToArray();
+        employeesSelected = await filterByPage();
+
+        var e = employees.First();
+
+        // check db first, check if count is > 100 employees ; dont bother
+        // else add all 100 employees
+        //query all, 
+        //filter properly, not just first name
+        // api
+        dadata.Employees.Add(e);
+        await dadata.SaveChangesAsync();
+        Employee? newEmployee = await dadata.Employees.FindAsync(e.EmployeeID);
+    }
+
+    public async Task<IEnumerable<Employee>> filterByPage()
+    {
+        pageNumber = Enumerable.Range(1, (employees.Count() / pageSize)).ToArray();
+        return await Task.Run(() => employees.Where(x => x.FirstName.Contains(firstNameFilter)).Skip(pageSize * (page - 1)).Take(pageSize));
+    }
+
+    public static string GenerateName(int len)
+    {
+        Random r = new Random();
+        string[] consonants = { "b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "l", "n", "p", "q", "r", "s", "sh", "zh", "t", "v", "w", "x" };
+        string[] vowels = { "a", "e", "i", "o", "u", "ae", "y" };
+        string Name = "";
+        Name += consonants[r.Next(consonants.Length)].ToUpper();
+        Name += vowels[r.Next(vowels.Length)];
+        int b = 2; //b tells how many times a new letter has been added. It's 2 right now because the first two letters are already in the name.
+        while (b < len)
+        {
+            Name += consonants[r.Next(consonants.Length)];
+            b++;
+            Name += vowels[r.Next(vowels.Length)];
+            b++;
+        }
+
+        return Name;
+
+
+    }
+}
+
